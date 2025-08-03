@@ -1,0 +1,204 @@
+# DumpEdit AI Agent Integration Plan
+
+## Project Overview
+
+**Goal:** Enhance DumpEdit text editor with intelligent file naming using a custom RL agent called "Agent Byte" that learns from user feedback to generate contextually relevant filenames.
+
+## Current DumpEdit Functionality
+
+- Simple text editor with auto-save to single file (`dumpedit_notes.txt`)
+- User workflow: clear → paste content → send file → repeat
+- Problem: Generic filename provides no context to recipients
+
+## Desired Functionality
+
+**Core Behavior:**
+- Agent analyzes pasted content and generates meaningful filename
+- File automatically renames with each content change
+- Agent learns from user feedback to improve naming over time
+- Single file system maintained (no multiple files)
+
+## Agent Integration Architecture
+
+### Agent: "Agent Byte v1.2"
+- **Type:** Enhanced modular RL agent with dual brain architecture (neural + symbolic)
+- **Core Components:**
+  - **Neural Network:** PyTorch-based Dueling DQN with Double DQN improvements
+  - **Symbolic Knowledge:** Context-aware decision making with environmental adaptation
+  - **Adaptive Learning:** Environment-specific parameter optimization (gamma, learning rate)
+- **Input:** Raw text content from editor
+- **Output:** Generated filename string
+- **Integration:** Copy agent_byte.py, dual_brain_system.py, knowledge_system.py into project
+- **Learning:** Modular design with knowledge system for rapid adaptation
+
+### Data Storage
+- **Neural Networks:** PyTorch PTH files (agent_main_network.pth, agent_target_network.pth)
+- **Knowledge System:** JSON files (agent_brain.json, agent_knowledge.json)
+- **Training Logs:** JSON files (agent_matches.json - keeps last 3 matches to optimize file size)
+- **Filename Training:** New JSON for filename-specific learning
+- **Logged Data:**
+  - Content type detected (email, code, meeting notes, etc.)
+  - Symbolic markers identified
+  - Environmental context used
+  - Generated filename and user feedback
+  - Adaptive learning parameters applied
+- **Existing Architecture:**
+  - Dual brain system with 15,000+ network parameters
+  - Symbolic decision maker with strategy effectiveness tracking
+  - Environment-specific knowledge contexts
+
+## User Interface Enhancements
+
+### Visual Elements
+- **Window Title:** `DumpEdit - filename.txt` (shows current filename)
+- **Feedback Buttons:** Thumbs up (+) and thumbs down (-) symbols
+- **Manual Override:** Type `title: new name` on first line of editor
+
+### User Workflow
+1. User pastes content into editor
+2. Agent analyzes content and generates filename
+3. Window title updates to show new filename
+4. User provides feedback:
+   - **Positive:** Click thumbs up OR open/use file (implicit approval)
+   - **Negative:** Click thumbs down OR type `title: new name`
+5. Agent receives reward/penalty and learns
+
+## Reward System Design
+
+### Positive Rewards
+- User clicks thumbs up/+ button
+- User opens/uses file with agent-generated name (implicit approval)
+
+### Negative Rewards
+- User clicks thumbs down/- button
+- User types `title: new name` override on first line
+
+### Special Cases
+- **Agent modifies text content:** Big negative reward (shouldn't happen)
+- **Multiple thumbs down:** Agent generates new name each time (no retry limit)
+- **Agent failure:** User keeps current filename or uses manual override
+
+## Agent Byte v1.2 Integration Specifics
+
+### Existing Agent Capabilities
+- **Dual Brain Architecture:** Neural network + symbolic knowledge system
+- **Experience Buffer:** 5000-item deque for experience replay
+- **User Demo Learning:** Can learn from human demonstrations with quality scoring
+- **Environment Integration:** Modular design for environment-specific behavior
+- **Adaptive Parameters:** Automatic gamma/learning rate optimization per environment
+- **Knowledge System:** Symbolic lessons, strategies, and reflections with effectiveness tracking
+
+### Filename Generation Environment Setup
+The agent will treat filename generation as a new "environment" with:
+- **State:** Text content features (length, type, keywords, structure)
+- **Actions:** Different filename generation strategies
+- **Rewards:** User feedback (thumbs up/down, manual override)
+- **Environment Context:**
+  - Objective: Generate contextually relevant filenames
+  - Learning parameters: Optimized for immediate feedback
+  - Strategic concepts: Text analysis, keyword extraction, pattern recognition
+
+### Integration Approach
+1. **Create FilenameEnvironment class** - Wrapper to interface with existing agent
+2. **Text Analysis Module** - Convert raw text to state representation for agent
+3. **Action Space** - Define filename generation strategies (title extraction, keyword-based, etc.)
+4. **Reward System** - Map user feedback to agent's existing reward structure
+
+## Technical Implementation Plan
+
+### Phase 1: Agent Environment Adaptation
+1. **Create FilenameEnvironment class** - Interface between dumpedit and Agent Byte
+2. **Text Analysis Pipeline** - Convert text content to state features
+3. **Action Space Definition** - Map agent actions to filename strategies:
+   - Extract title/header
+   - Keyword-based naming
+   - Content type detection
+   - Pattern recognition
+4. **Reward Mapping** - Connect user feedback to agent's reward system
+
+### Phase 2: Agent Integration
+1. Copy core agent files (agent_byte.py, dual_brain_system.py, knowledge_system.py)
+2. Create filename-specific knowledge context
+3. Set up adaptive learning parameters for filename environment
+4. Initialize agent with filename generation "app context"
+
+### Phase 3: UI and Workflow Updates
+1. Add filename display to window title
+2. Implement thumbs up/down feedback buttons
+3. Add manual override detection (`title: name` parsing)
+4. Connect save triggers to agent analysis pipeline
+
+### Phase 4: Learning System Integration
+1. Integrate with existing JSON logging (agent_matches.json pattern)
+2. Set up filename-specific training data collection
+3. Configure symbolic knowledge system for text analysis patterns
+4. Test agent learning with real usage scenarios
+
+## Fallback Mechanisms
+
+### Agent Unavailable/Crashed
+- Keep current filename (whatever file is currently named)
+- Allow manual override with `title: new name` syntax
+- Log error for debugging
+
+### Poor Name Generation
+- User can always override with `title: new name`
+- Multiple thumbs down attempts allowed
+- Agent learns from all negative feedback
+
+## File Structure (Updated)
+```
+dumpedit/
+├── dumpedit.py                    # Main application (enhanced)
+├── agent_byte.py                  # Agent Byte v1.2 main class
+├── dual_brain_system.py          # Dual brain architecture
+├── knowledge_system.py           # Symbolic decision making
+├── dueling_network_pytorch.py    # PyTorch neural networks (if needed)
+├── filename_environment.py       # NEW: Filename generation environment
+├── agent_brain.json              # Core learning engine state
+├── agent_knowledge.json          # Symbolic knowledge base
+├── agent_main_network.pth        # PyTorch main network weights
+├── agent_target_network.pth      # PyTorch target network weights
+├── agent_matches.json            # Training logs (last 3 matches)
+├── filename_training.json        # NEW: Filename-specific training data
+├── autosaved_notes/               # Current save location
+│   └── [agent_generated_name].txt # Dynamically named file
+└── README.md                      # Updated documentation
+```
+
+## Expected Benefits
+
+### For User
+- Contextual filenames improve recipient understanding
+- Reduced manual file renaming
+- Personalized naming that improves over time
+- Maintains simple workflow
+- **Leverages existing Agent Byte intelligence** - Pre-trained symbolic reasoning
+
+### For Agent
+- **Builds on existing 15,000+ parameter neural network**
+- **Utilizes proven dual brain architecture** (neural + symbolic)
+- **Benefits from existing adaptive learning system**
+- Real-world training data from actual usage
+- Clear reward signals for learning
+- **Focused domain expertise** - Text analysis for filename generation
+- **Modular knowledge system** - Can transfer learnings to other text analysis tasks
+
+## Success Metrics
+
+1. **Accuracy:** % of filenames user accepts without modification
+2. **Learning Speed:** How quickly agent improves with feedback
+3. **User Satisfaction:** Reduced need for manual overrides over time
+4. **Robustness:** Graceful handling of edge cases and failures
+
+## Next Steps
+
+1. **Agent Code Review:** Share Agent Byte implementation for analysis
+2. **Integration Planning:** Determine specific modification needed
+3. **Prototype Development:** Build basic integration
+4. **Testing Phase:** Real usage with feedback collection
+5. **Iterative Improvement:** Refine based on learning performance
+
+---
+
+*This plan serves as the roadmap for integrating Agent Byte with DumpEdit to create an intelligent, learning file naming system.*

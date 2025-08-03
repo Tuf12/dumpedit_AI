@@ -1,0 +1,327 @@
+{
+  "total_matches_all_time": 3,
+  "matches_in_history": 3,
+  "last_updated": "2025-07-29T06:45:19.240292",
+  "version": "Agent Byte v1.2 - PyTorch + Adaptive Learning + Knowledge System Enhanced",
+  "note": "Only keeping last 3 matches to optimize file size",
+  "matches": [
+    {
+      "match_id": "agent_byte_ai_vs_ai_pong_1753789140",
+      "game_type": "ai_vs_ai_pong",
+      "start_time": "2025-07-29T06:39:00.896397",
+      "end_time": "2025-07-29T06:41:28.292698",
+      "winner": "Opponent",
+      "final_score": {
+        "mini_byte": 13.0,
+        "agent_byte": 21.0
+      },
+      "agent_byte_stats": {
+        "total_reward": -5308.8,
+        "actions_taken": 5164,
+        "match_reward": -850.95,
+        "exploration_rate_start": 0.10675803209483312,
+        "exploration_rate_end": 0.10675803209483312,
+        "training_steps": 13908743,
+        "target_updates": 13908743,
+        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
+        "hit_to_score_bonuses": 0,
+        "human_demos_used": 0,
+        "user_demos_recorded": 0,
+        "demo_learning_weight": 0.3,
+        "symbolic_lessons_learned": 3,
+        "strategies_discovered": 0,
+        "symbolic_decisions_made": 0,
+        "neural_decisions_made": 0,
+        "knowledge_effectiveness": 0.0,
+        "gamma_used": 0.9,
+        "gamma_source": "default",
+        "learning_rate_used": 0.001,
+        "learning_parameters_adapted": false,
+        "double_dqn_improvements": 6405,
+        "total_bonus_reward": 15.1,
+        "user_demos_processed": 0,
+        "reflections_generated": 1,
+        "strategy_performance": {},
+        "default_gamma": 0.9,
+        "environment_learning_metadata": {
+          "match_duration": "2-5 minutes typical",
+          "decision_frequency": "60 decisions per second",
+          "feedback_immediacy": "Immediate (hit/miss within 1 second)",
+          "reward_temporal_distance": "1-3 seconds from action to outcome"
+        },
+        "environment_integrated": true,
+        "modular_behavior_active": true
+      },
+      "interactions": [],
+      "rewards_timeline": [],
+      "user_demonstrations": [],
+      "symbolic_insights": [
+        {
+          "timestamp": 1753789140.8964236,
+          "type": "env_context_loaded",
+          "content": "Environment context integrated for ai_vs_ai_pong"
+        },
+        {
+          "timestamp": 1753789153.5817997,
+          "type": "training_milestone",
+          "content": "Training milestone: 13904000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789168.2315586,
+          "type": "training_milestone",
+          "content": "Training milestone: 13904500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789181.9614236,
+          "type": "training_milestone",
+          "content": "Training milestone: 13905000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789195.6188135,
+          "type": "training_milestone",
+          "content": "Training milestone: 13905500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789209.3295565,
+          "type": "training_milestone",
+          "content": "Training milestone: 13906000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789222.8554273,
+          "type": "training_milestone",
+          "content": "Training milestone: 13906500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789237.6699169,
+          "type": "training_milestone",
+          "content": "Training milestone: 13907000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789252.0972044,
+          "type": "training_milestone",
+          "content": "Training milestone: 13907500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789267.0673838,
+          "type": "training_milestone",
+          "content": "Training milestone: 13908000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789281.1663125,
+          "type": "training_milestone",
+          "content": "Training milestone: 13908500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        }
+      ],
+      "strategic_decisions": [],
+      "learning_adaptations": [],
+      "duration_seconds": 147.396301
+    },
+    {
+      "match_id": "agent_byte_ai_vs_ai_pong_1753789288",
+      "game_type": "ai_vs_ai_pong",
+      "start_time": "2025-07-29T06:41:28.524879",
+      "end_time": "2025-07-29T06:43:29.342481",
+      "winner": "Opponent",
+      "final_score": {
+        "mini_byte": 18.0,
+        "agent_byte": 21.0
+      },
+      "agent_byte_stats": {
+        "total_reward": -6109.37,
+        "actions_taken": 4341,
+        "match_reward": -800.57,
+        "exploration_rate_start": 0.1,
+        "exploration_rate_end": 0.1,
+        "training_steps": 13913084,
+        "target_updates": 13913084,
+        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
+        "hit_to_score_bonuses": 0,
+        "human_demos_used": 0,
+        "user_demos_recorded": 0,
+        "demo_learning_weight": 0.3,
+        "symbolic_lessons_learned": 2,
+        "strategies_discovered": 0,
+        "symbolic_decisions_made": 0,
+        "neural_decisions_made": 0,
+        "knowledge_effectiveness": 0.0,
+        "gamma_used": 0.9,
+        "gamma_source": "default",
+        "learning_rate_used": 0.001,
+        "learning_parameters_adapted": false,
+        "double_dqn_improvements": 6937,
+        "total_bonus_reward": 15.1,
+        "user_demos_processed": 0,
+        "reflections_generated": 1,
+        "strategy_performance": {},
+        "default_gamma": 0.9,
+        "environment_learning_metadata": {
+          "match_duration": "2-5 minutes typical",
+          "decision_frequency": "60 decisions per second",
+          "feedback_immediacy": "Immediate (hit/miss within 1 second)",
+          "reward_temporal_distance": "1-3 seconds from action to outcome"
+        },
+        "environment_integrated": true,
+        "modular_behavior_active": true
+      },
+      "interactions": [],
+      "rewards_timeline": [],
+      "user_demonstrations": [],
+      "symbolic_insights": [
+        {
+          "timestamp": 1753789288.524906,
+          "type": "env_context_loaded",
+          "content": "Environment context integrated for ai_vs_ai_pong"
+        },
+        {
+          "timestamp": 1753789295.6105535,
+          "type": "training_milestone",
+          "content": "Training milestone: 13909000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789309.5503833,
+          "type": "training_milestone",
+          "content": "Training milestone: 13909500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789323.429282,
+          "type": "training_milestone",
+          "content": "Training milestone: 13910000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789337.0625596,
+          "type": "training_milestone",
+          "content": "Training milestone: 13910500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789351.258114,
+          "type": "training_milestone",
+          "content": "Training milestone: 13911000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789365.1827748,
+          "type": "training_milestone",
+          "content": "Training milestone: 13911500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789379.0750704,
+          "type": "training_milestone",
+          "content": "Training milestone: 13912000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789392.7175007,
+          "type": "training_milestone",
+          "content": "Training milestone: 13912500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789406.6681073,
+          "type": "training_milestone",
+          "content": "Training milestone: 13913000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        }
+      ],
+      "strategic_decisions": [],
+      "learning_adaptations": [],
+      "duration_seconds": 120.817602
+    },
+    {
+      "match_id": "agent_byte_ai_vs_ai_pong_1753789409",
+      "game_type": "ai_vs_ai_pong",
+      "start_time": "2025-07-29T06:43:29.572971",
+      "end_time": "2025-07-29T06:45:19.240187",
+      "winner": "Opponent",
+      "final_score": {
+        "mini_byte": 10.0,
+        "agent_byte": 21.0
+      },
+      "agent_byte_stats": {
+        "total_reward": -6965.07,
+        "actions_taken": 3933,
+        "match_reward": -855.7,
+        "exploration_rate_start": 0.10351980000000001,
+        "exploration_rate_end": 0.10351980000000001,
+        "training_steps": 13917017,
+        "target_updates": 13917017,
+        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
+        "hit_to_score_bonuses": 0,
+        "human_demos_used": 0,
+        "user_demos_recorded": 0,
+        "demo_learning_weight": 0.3,
+        "symbolic_lessons_learned": 5,
+        "strategies_discovered": 0,
+        "symbolic_decisions_made": 0,
+        "neural_decisions_made": 0,
+        "knowledge_effectiveness": 0.0,
+        "gamma_used": 0.9,
+        "gamma_source": "default",
+        "learning_rate_used": 0.001,
+        "learning_parameters_adapted": false,
+        "double_dqn_improvements": 7379,
+        "total_bonus_reward": 15.1,
+        "user_demos_processed": 0,
+        "reflections_generated": 1,
+        "strategy_performance": {},
+        "default_gamma": 0.9,
+        "environment_learning_metadata": {
+          "match_duration": "2-5 minutes typical",
+          "decision_frequency": "60 decisions per second",
+          "feedback_immediacy": "Immediate (hit/miss within 1 second)",
+          "reward_temporal_distance": "1-3 seconds from action to outcome"
+        },
+        "environment_integrated": true,
+        "modular_behavior_active": true
+      },
+      "interactions": [],
+      "rewards_timeline": [],
+      "user_demonstrations": [],
+      "symbolic_insights": [
+        {
+          "timestamp": 1753789409.5729997,
+          "type": "env_context_loaded",
+          "content": "Environment context integrated for ai_vs_ai_pong"
+        },
+        {
+          "timestamp": 1753789421.337979,
+          "type": "training_milestone",
+          "content": "Training milestone: 13913500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789435.3296719,
+          "type": "training_milestone",
+          "content": "Training milestone: 13914000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789449.416783,
+          "type": "training_milestone",
+          "content": "Training milestone: 13914500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789463.1482673,
+          "type": "training_milestone",
+          "content": "Training milestone: 13915000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789476.9063613,
+          "type": "training_milestone",
+          "content": "Training milestone: 13915500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789490.714697,
+          "type": "training_milestone",
+          "content": "Training milestone: 13916000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789504.5604463,
+          "type": "training_milestone",
+          "content": "Training milestone: 13916500 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        },
+        {
+          "timestamp": 1753789518.3576167,
+          "type": "training_milestone",
+          "content": "Training milestone: 13917000 steps, gamma=0.900, knowledge effectiveness: 0.00"
+        }
+      ],
+      "strategic_decisions": [],
+      "learning_adaptations": [],
+      "duration_seconds": 109.667216
+    }
+  ]
+}
