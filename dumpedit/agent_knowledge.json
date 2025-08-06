@@ -2957,12 +2957,13 @@
           "Master keyword extraction",
           "Master pattern recognition",
           "Master context analysis",
-          "Good content understanding: avg reward 2.0 - expand successful pattern recognition [Discovered via Adaptive Knowledge System]"
+          "Good content understanding: avg reward 2.0 - expand successful pattern recognition [Discovered via Adaptive Knowledge System]",
+          "Good content understanding: avg reward 1.5 - expand successful pattern recognition [Discovered via Adaptive Knowledge System]"
         ],
         "metrics": {
-          "games_played": 6,
+          "games_played": 16,
           "wins": 0,
-          "losses": 6,
+          "losses": 16,
           "demo_effectiveness": 0.0,
           "best_win_streak": 0,
           "current_streak": 0,
@@ -2970,11 +2971,6 @@
           "symbolic_effectiveness": 0.0
         },
         "lessons": [
-          "Secondary goal: Learn user naming preferences through feedback",
-          "Victory condition: User accepts generated filename (thumbs up or file usage)",
-          "[Adaptive Learning] Filename feedback is immediate - prioritize recent rewards",
-          "Key insight: Short descriptive names work better than long ones",
-          "Key insight: Content type context improves relevance",
           "Key insight: Timestamp inclusion helps with logs",
           "Key insight: Error type identification crucial for tracebacks",
           "[Exploration Phase] Try different content analysis strategies",
@@ -2988,7 +2984,13 @@
           "Avoid no_context: Ignoring content type when generating names | Solution: Always consider content patterns before naming",
           "Manual override suggests filename was irrelevant to content - improve pattern recognition [Adaptive Learning + Knowledge System Enhanced]",
           "Negative feedback indicates poor content interpretation - analyze different content features [Adaptive Learning + Knowledge System Enhanced]",
-          "High reward indicates successful content analysis and appropriate filename generation [Adaptive Learning + Knowledge System Enhanced]"
+          "High reward indicates successful content analysis and appropriate filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Moderate reward (1.5) - filename was acceptable but could be improved [Adaptive Learning + Knowledge System Enhanced]",
+          "Content type 'config' responds well to strategy 0 - generated 'code_log_filename_feedback.txt' successfully [Adaptive Learning + Knowledge System Enhanced]",
+          "Content type 'traceback' responds well to strategy 0 - generated 'rename_self_one.txt' successfully [Adaptive Learning + Knowledge System Enhanced]",
+          "Content type 'traceback' responds well to strategy 1 - generated 'importerror_could_not_import_gobject_erro.txt' successfully [Adaptive Learning + Knowledge System Enhanced]",
+          "Avoid using strategy 3 for config content - user rejected 'agent_knowledge_content.txt' [Adaptive Learning + Knowledge System Enhanced]",
+          "Content type 'code' responds well to strategy 0 - generated 'init_.py_-_dumpedit_ai_agent_package_initiali.txt' successfully [Adaptive Learning + Knowledge System Enhanced]"
         ],
         "symbolic_reflections": [
           "filename_generation requires strategy adjustment - consider different adaptive learning approach"
@@ -3035,6 +3037,76 @@
             "reward": 4.0,
             "outcome_summary": "Excellent filename generated - user approved!",
             "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-04T21:00:30.919353",
+            "win": false,
+            "reward": 1.5,
+            "outcome_summary": "Good filename - user used the file",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-04T21:00:30.946329",
+            "win": false,
+            "reward": 1.5,
+            "outcome_summary": "Good filename - user used the file",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-04T21:23:32.829160",
+            "win": false,
+            "reward": 0.0,
+            "outcome_summary": "Neutral filename quality (reward: 0.0)",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-04T21:23:32.839966",
+            "win": false,
+            "reward": 0.0,
+            "outcome_summary": "Neutral filename quality (reward: 0.0)",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-05T05:34:19.417434",
+            "win": false,
+            "reward": 2.5,
+            "outcome_summary": "Excellent filename generated - user approved!",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-05T05:34:19.446404",
+            "win": false,
+            "reward": 2.5,
+            "outcome_summary": "Excellent filename generated - user approved!",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-05T06:51:11.019233",
+            "win": false,
+            "reward": 1.5,
+            "outcome_summary": "Good filename - user used the file",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-05T06:51:11.042857",
+            "win": false,
+            "reward": 1.5,
+            "outcome_summary": "Good filename - user used the file",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-06T06:58:26.842464",
+            "win": false,
+            "reward": 4.0,
+            "outcome_summary": "Excellent filename generated - user approved!",
+            "win_rate_at_time": 0.0
+          },
+          {
+            "timestamp": "2025-08-06T06:58:26.876729",
+            "win": false,
+            "reward": 4.0,
+            "outcome_summary": "Excellent filename generated - user approved!",
+            "win_rate_at_time": 0.0
           }
         ],
         "knowledge_system_metadata": {
@@ -3058,7 +3130,7 @@
               "feedback_immediacy": "Immediate",
               "decision_frequency": "Per content change"
             },
-            "last_updated": 1754311021.3672855
+            "last_updated": 1754480812.6264794
           }
         },
         "context_metadata": {
@@ -3068,8 +3140,8 @@
           "integration_timestamp": 1754307682.4235198,
           "knowledge_system_enhanced": true,
           "adaptive_learning_enhanced": true,
-          "last_env_context_update": 1754311021.367253,
-          "context_integration_timestamp": 1754311021.3673003
+          "last_env_context_update": 1754480812.626445,
+          "context_integration_timestamp": 1754480812.6264951
         },
         "environment_context": {
           "name": "filename_generation",
@@ -3143,7 +3215,7 @@
           },
           "context_metadata": {
             "environment_version": "1.0",
-            "generated_at": 1754311021.367253,
+            "generated_at": 1754480812.626445,
             "content_types_supported": [
               "traceback",
               "log",
@@ -3155,6 +3227,47 @@
             ]
           }
         }
+      },
+      "content_analysis": {
+        "objective": "Learn through gameplay",
+        "rules": {},
+        "strategies": [],
+        "metrics": {
+          "games_played": 0,
+          "wins": 0,
+          "losses": 0,
+          "demo_effectiveness": 0.0,
+          "best_win_streak": 0,
+          "current_streak": 0,
+          "knowledge_system_decisions": 0,
+          "symbolic_effectiveness": 0.0
+        },
+        "lessons": [
+          "Content with traceback patterns: ['error:', 'error:'] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with code patterns: ['def log_filename_feedback(', 'def _calculate_importance_score('] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with config patterns: ['content = self', 'state = self'] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with traceback patterns: ['Error:'] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with code patterns: ['import gobject'] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with config patterns: [\"['Error:']\", \"['import gobject']\"] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with traceback patterns: ['Error:', 'Error:'] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with code patterns: ['def create_agent_for_filename_generation(', 'def get_package_info('] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]",
+          "Content with config patterns: ['PYTORCH_AVAILABLE = True', 'PYTORCH_AVAILABLE = False'] - useful for filename generation [Adaptive Learning + Knowledge System Enhanced]"
+        ],
+        "symbolic_reflections": [],
+        "performance_history": [],
+        "knowledge_system_metadata": {
+          "enabled": true,
+          "created_with_knowledge_system": true,
+          "version": "1.2.1"
+        },
+        "adaptive_learning_metadata": {
+          "enabled": true,
+          "created_with_adaptive_learning": true,
+          "parameter_adaptations": [],
+          "performance_with_adaptations": {},
+          "environment_specific_optimizations": {},
+          "version": "1.2.1"
+        }
       }
     },
     "activities": {},
@@ -3163,7 +3276,7 @@
   "metadata": {
     "version": "1.2.1",
     "created": "2025-07-21T19:44:38.285587",
-    "last_updated": "2025-08-04T07:40:46.772958",
+    "last_updated": "2025-08-06T06:58:26.895265",
     "knowledge_system_enhanced": true,
     "adaptive_learning_enhanced": true
   }

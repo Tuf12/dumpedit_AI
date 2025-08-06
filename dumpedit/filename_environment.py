@@ -12,6 +12,7 @@ class FilenameEnvironment:
     """Environment wrapper that interfaces between DumpEdit and Agent Byte for filename generation"""
 
     def __init__(self):
+
         self.name = "filename_generation"
         self.state_size = 20  # Feature vector size for agent
         self.action_size = 8  # Number of filename generation strategies
@@ -105,6 +106,7 @@ class FilenameEnvironment:
             5: self._strategy_meeting_topic,
             6: self._strategy_content_keywords,
             7: self._strategy_fallback_summary
+
         }
 
         # Stop words for keyword extraction

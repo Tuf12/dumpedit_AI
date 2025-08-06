@@ -1,28 +1,28 @@
 {
   "total_matches_all_time": 3,
   "matches_in_history": 3,
-  "last_updated": "2025-08-04T07:40:46.767860",
+  "last_updated": "2025-08-06T06:58:26.885554",
   "version": "Agent Byte v1.2 - PyTorch + Adaptive Learning + Knowledge System Enhanced",
   "note": "Only keeping last 3 matches to optimize file size",
   "matches": [
     {
-      "match_id": "agent_byte_filename_generation_1754307682",
+      "match_id": "agent_byte_filename_generation_1754389441",
       "game_type": "filename_generation",
-      "start_time": "2025-08-04T06:41:22.426934",
-      "end_time": "2025-08-04T06:57:02.631722",
+      "start_time": "2025-08-05T05:24:01.298598",
+      "end_time": "2025-08-05T05:34:19.452526",
       "winner": "User",
       "final_score": {
         "games_played": 0,
         "wins": 0,
         "win_rate": 0.0,
         "exploration_rate": 0.102,
-        "avg_reward_per_game": -1.0,
-        "match_reward": -1.0,
-        "total_reward": -1.0,
-        "actions_taken": 15,
-        "training_steps": 13918557,
-        "experience_buffer_size": 5,
-        "avg_loss": 1150.22,
+        "avg_reward_per_game": 2.5,
+        "match_reward": 2.5,
+        "total_reward": 2.5,
+        "actions_taken": 8,
+        "training_steps": 13918566,
+        "experience_buffer_size": 3,
+        "avg_loss": 1150.2192,
         "learning_rate": 0.001,
         "learning_phase": "Expert",
         "strategic_moves": 0,
@@ -35,458 +35,17 @@
         "demo_learning_weight": 0.3,
         "demo_replay_ratio": 0.25,
         "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
-        "target_updates": 13918557,
+        "target_updates": 13918566,
         "double_dqn_improvements": 0,
         "network_parameters": 15000,
-        "ball_tracking_score": 1150.22,
-        "lessons_learned_this_match": 3,
-        "strategies_discovered_this_match": 1,
-        "symbolic_decisions_made": 13,
-        "neural_decisions_made": 2,
-        "knowledge_effectiveness": 0.0,
-        "strategy_performance": {
-          "neural": -2.0,
-          "symbolic": 0.25
-        },
-        "gamma": 0.95,
-        "gamma_source": "environment:filename_generation",
-        "default_gamma": 0.9,
-        "environment_gamma": 0.95,
-        "learning_parameters_adapted": true,
-        "environment_learning_metadata": {
-          "gamma_rationale": "Filename feedback is immediate - prioritize recent rewards",
-          "match_duration": "1-5 seconds",
-          "feedback_immediacy": "Immediate",
-          "decision_frequency": "Per content change"
-        },
-        "environment_integrated": true,
-        "environment_name": "filename_generation",
-        "environment_constants_loaded": 8,
-        "modular_behavior_active": true,
-        "environment_specific_learning": true,
-        "strategies_available": 11,
-        "lessons_learned": 19,
-        "reflections_made": 0,
-        "symbolic_win_rate": 0.0,
-        "recent_performance": {
-          "matches_analyzed": 3,
-          "recent_win_rate": 0.0,
-          "recent_hit_rate": 0.0,
-          "avg_reward_per_match": -835.7400000000001,
-          "avg_hit_bonuses_per_match": 0.0,
-          "avg_human_demos_per_match": 0.0,
-          "avg_user_demos_per_match": 0.0,
-          "avg_lessons_per_match": 3.3333333333333335,
-          "avg_symbolic_decisions_per_match": 0.0,
-          "gamma_adaptations": 0,
-          "adaptive_learning_usage_rate": 0.0,
-          "total_matches": 3,
-          "total_wins": 0
-        }
-      },
-      "agent_byte_stats": {
-        "total_reward": -1.0,
-        "actions_taken": 15,
-        "match_reward": -1.0,
-        "exploration_rate_start": 0.101933964143407,
-        "exploration_rate_end": 0.101933964143407,
-        "training_steps": 13918557,
-        "target_updates": 13918557,
-        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
-        "hit_to_score_bonuses": 0,
-        "human_demos_used": 0,
-        "user_demos_recorded": 0,
-        "demo_learning_weight": 0.3,
-        "symbolic_lessons_learned": 3,
-        "strategies_discovered": 1,
-        "symbolic_decisions_made": 13,
-        "neural_decisions_made": 2,
-        "knowledge_effectiveness": 0.0,
-        "gamma_used": 0.95,
-        "gamma_source": "environment:filename_generation",
-        "learning_rate_used": 0.001,
-        "learning_parameters_adapted": true,
-        "double_dqn_improvements": 0,
-        "total_bonus_reward": 0,
-        "user_demos_processed": 0,
-        "reflections_generated": 1,
-        "strategy_performance": {
-          "neural": -2.0,
-          "symbolic": 0.25
-        },
-        "default_gamma": 0.9,
-        "environment_learning_metadata": {
-          "gamma_rationale": "Filename feedback is immediate - prioritize recent rewards",
-          "match_duration": "1-5 seconds",
-          "feedback_immediacy": "Immediate",
-          "decision_frequency": "Per content change"
-        },
-        "environment_integrated": true,
-        "modular_behavior_active": true
-      },
-      "interactions": [],
-      "rewards_timeline": [],
-      "user_demonstrations": [],
-      "symbolic_insights": [
-        {
-          "timestamp": 1754307682.4269502,
-          "type": "env_context_loaded",
-          "content": "Environment context integrated for filename_generation"
-        },
-        {
-          "timestamp": 1754307703.648926,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307705.5297666,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307758.1021888,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307768.2983558,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307771.557958,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307785.2420757,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307788.2825882,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307823.0506082,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307912.5455298,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307914.58707,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754307922.3583028,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754308356.8409662,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        },
-        {
-          "timestamp": 1754308358.880787,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        }
-      ],
-      "strategic_decisions": [
-        {
-          "timestamp": 1754307703.648929,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307705.529769,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307758.102192,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307768.2983599,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307771.557961,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307785.2420805,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307788.2825923,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307823.050612,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307912.5455325,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307914.5870717,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754307922.3583047,
-          "action": 7,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754308356.8409703,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        },
-        {
-          "timestamp": 1754308358.8808162,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        }
-      ],
-      "learning_adaptations": [
-        {
-          "timestamp": 1754307682.4269524,
-          "parameter": "gamma",
-          "old_value": 0.9,
-          "new_value": 0.95,
-          "source": "environment:filename_generation",
-          "rationale": "Filename feedback is immediate - prioritize recent rewards"
-        }
-      ],
-      "duration_seconds": 940.204788
-    },
-    {
-      "match_id": "agent_byte_filename_generation_1754310488",
-      "game_type": "filename_generation",
-      "start_time": "2025-08-04T07:28:08.135819",
-      "end_time": "2025-08-04T07:34:59.884900",
-      "winner": "User",
-      "final_score": {
-        "games_played": 0,
-        "wins": 0,
-        "win_rate": 0.0,
-        "exploration_rate": 0.102,
-        "avg_reward_per_game": -1.0,
-        "match_reward": -1.0,
-        "total_reward": -1.0,
-        "actions_taken": 2,
-        "training_steps": 13918558,
-        "experience_buffer_size": 1,
-        "avg_loss": 1150.2199,
-        "learning_rate": 0.001,
-        "learning_phase": "Expert",
-        "strategic_moves": 0,
-        "hit_to_score_bonuses": 0,
-        "total_bonus_reward": 0.0,
-        "human_demos_used": 0,
-        "user_demos_recorded": 0,
-        "user_demos_processed": 0,
-        "user_demo_buffer_size": 0,
-        "demo_learning_weight": 0.3,
-        "demo_replay_ratio": 0.25,
-        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
-        "target_updates": 13918558,
-        "double_dqn_improvements": 0,
-        "network_parameters": 15000,
-        "ball_tracking_score": 1150.2199,
+        "ball_tracking_score": 1150.2192,
         "lessons_learned_this_match": 0,
         "strategies_discovered_this_match": 0,
-        "symbolic_decisions_made": 1,
-        "neural_decisions_made": 1,
-        "knowledge_effectiveness": 0.0,
-        "strategy_performance": {
-          "symbolic": -1.0
-        },
-        "gamma": 0.95,
-        "gamma_source": "default",
-        "default_gamma": 0.95,
-        "environment_gamma": null,
-        "learning_parameters_adapted": false,
-        "environment_learning_metadata": {
-          "match_duration": "1-5 seconds",
-          "feedback_immediacy": "Immediate",
-          "decision_frequency": "Per content change"
-        },
-        "environment_integrated": true,
-        "environment_name": "filename_generation",
-        "environment_constants_loaded": 8,
-        "modular_behavior_active": true,
-        "environment_specific_learning": true,
-        "strategies_available": 15,
-        "lessons_learned": 19,
-        "reflections_made": 1,
-        "symbolic_win_rate": 0.0,
-        "recent_performance": {
-          "matches_analyzed": 3,
-          "recent_win_rate": 0.0,
-          "recent_hit_rate": 0.0,
-          "avg_reward_per_match": -552.4233333333333,
-          "avg_hit_bonuses_per_match": 0.0,
-          "avg_human_demos_per_match": 0.0,
-          "avg_user_demos_per_match": 0.0,
-          "avg_lessons_per_match": 3.3333333333333335,
-          "avg_symbolic_decisions_per_match": 4.333333333333333,
-          "gamma_adaptations": 1,
-          "adaptive_learning_usage_rate": 33.33333333333333,
-          "total_matches": 3,
-          "total_wins": 0
-        }
-      },
-      "agent_byte_stats": {
-        "total_reward": -1.0,
-        "actions_taken": 2,
-        "match_reward": -1.0,
-        "exploration_rate_start": 0.101933964143407,
-        "exploration_rate_end": 0.101933964143407,
-        "training_steps": 13918558,
-        "target_updates": 13918558,
-        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
-        "hit_to_score_bonuses": 0,
-        "human_demos_used": 0,
-        "user_demos_recorded": 0,
-        "demo_learning_weight": 0.3,
-        "symbolic_lessons_learned": 0,
-        "strategies_discovered": 0,
-        "symbolic_decisions_made": 1,
-        "neural_decisions_made": 1,
-        "knowledge_effectiveness": 0.0,
-        "gamma_used": 0.95,
-        "gamma_source": "default",
-        "learning_rate_used": 0.001,
-        "learning_parameters_adapted": false,
-        "double_dqn_improvements": 0,
-        "total_bonus_reward": 0,
-        "user_demos_processed": 0,
-        "reflections_generated": 1,
-        "strategy_performance": {
-          "symbolic": -1.0
-        },
-        "default_gamma": 0.95,
-        "environment_learning_metadata": {
-          "match_duration": "1-5 seconds",
-          "feedback_immediacy": "Immediate",
-          "decision_frequency": "Per content change"
-        },
-        "environment_integrated": true,
-        "modular_behavior_active": true
-      },
-      "interactions": [],
-      "rewards_timeline": [],
-      "user_demonstrations": [],
-      "symbolic_insights": [
-        {
-          "timestamp": 1754310488.1358345,
-          "type": "env_context_loaded",
-          "content": "Environment context integrated for filename_generation"
-        },
-        {
-          "timestamp": 1754310505.989168,
-          "type": "strategic_decision",
-          "content": "\ud83e\udde9 No applicable strategies for current situation"
-        }
-      ],
-      "strategic_decisions": [
-        {
-          "timestamp": 1754310505.989171,
-          "action": 4,
-          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
-          "confidence": 0.8,
-          "strategy_used": "unknown"
-        }
-      ],
-      "learning_adaptations": [],
-      "duration_seconds": 411.749081
-    },
-    {
-      "match_id": "agent_byte_filename_generation_1754311021",
-      "game_type": "filename_generation",
-      "start_time": "2025-08-04T07:37:01.370504",
-      "end_time": "2025-08-04T07:40:46.767736",
-      "winner": "User",
-      "final_score": {
-        "games_played": 0,
-        "wins": 0,
-        "win_rate": 0.0,
-        "exploration_rate": 0.102,
-        "avg_reward_per_game": 4.0,
-        "match_reward": 4.0,
-        "total_reward": 4.0,
-        "actions_taken": 4,
-        "training_steps": 13918560,
-        "experience_buffer_size": 2,
-        "avg_loss": 1150.2197,
-        "learning_rate": 0.001,
-        "learning_phase": "Expert",
-        "strategic_moves": 0,
-        "hit_to_score_bonuses": 0,
-        "total_bonus_reward": 0.0,
-        "human_demos_used": 0,
-        "user_demos_recorded": 0,
-        "user_demos_processed": 0,
-        "user_demo_buffer_size": 0,
-        "demo_learning_weight": 0.3,
-        "demo_replay_ratio": 0.25,
-        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
-        "target_updates": 13918560,
-        "double_dqn_improvements": 0,
-        "network_parameters": 15000,
-        "ball_tracking_score": 1150.2197,
-        "lessons_learned_this_match": 0,
-        "strategies_discovered_this_match": 1,
-        "symbolic_decisions_made": 4,
+        "symbolic_decisions_made": 8,
         "neural_decisions_made": 0,
         "knowledge_effectiveness": 1.0,
         "strategy_performance": {
-          "symbolic": 2.0
+          "symbolic": 0.833
         },
         "gamma": 0.95,
         "gamma_source": "default",
@@ -504,41 +63,41 @@
         "modular_behavior_active": true,
         "environment_specific_learning": true,
         "strategies_available": 16,
-        "lessons_learned": 19,
+        "lessons_learned": 20,
         "reflections_made": 1,
         "symbolic_win_rate": 0.0,
         "recent_performance": {
           "matches_analyzed": 3,
           "recent_win_rate": 0.0,
           "recent_hit_rate": 0.0,
-          "avg_reward_per_match": -285.90000000000003,
+          "avg_reward_per_match": 1.8333333333333333,
           "avg_hit_bonuses_per_match": 0.0,
           "avg_human_demos_per_match": 0.0,
           "avg_user_demos_per_match": 0.0,
-          "avg_lessons_per_match": 2.6666666666666665,
-          "avg_symbolic_decisions_per_match": 4.666666666666667,
-          "gamma_adaptations": 1,
-          "adaptive_learning_usage_rate": 33.33333333333333,
+          "avg_lessons_per_match": 0.3333333333333333,
+          "avg_symbolic_decisions_per_match": 3.0,
+          "gamma_adaptations": 0,
+          "adaptive_learning_usage_rate": 0.0,
           "total_matches": 3,
           "total_wins": 0
         }
       },
       "agent_byte_stats": {
-        "total_reward": 4.0,
-        "actions_taken": 4,
-        "match_reward": 4.0,
+        "total_reward": 2.5,
+        "actions_taken": 8,
+        "match_reward": 2.5,
         "exploration_rate_start": 0.101933964143407,
         "exploration_rate_end": 0.101933964143407,
-        "training_steps": 13918560,
-        "target_updates": 13918560,
+        "training_steps": 13918566,
+        "target_updates": 13918566,
         "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
         "hit_to_score_bonuses": 0,
         "human_demos_used": 0,
         "user_demos_recorded": 0,
         "demo_learning_weight": 0.3,
         "symbolic_lessons_learned": 0,
-        "strategies_discovered": 1,
-        "symbolic_decisions_made": 4,
+        "strategies_discovered": 0,
+        "symbolic_decisions_made": 8,
         "neural_decisions_made": 0,
         "knowledge_effectiveness": 1.0,
         "gamma_used": 0.95,
@@ -550,7 +109,7 @@
         "user_demos_processed": 0,
         "reflections_generated": 1,
         "strategy_performance": {
-          "symbolic": 2.0
+          "symbolic": 0.833
         },
         "default_gamma": 0.95,
         "environment_learning_metadata": {
@@ -566,55 +125,103 @@
       "user_demonstrations": [],
       "symbolic_insights": [
         {
-          "timestamp": 1754311021.3705187,
+          "timestamp": 1754389441.2986126,
           "type": "env_context_loaded",
           "content": "Environment context integrated for filename_generation"
         },
         {
-          "timestamp": 1754311030.251608,
+          "timestamp": 1754389455.6660023,
           "type": "strategic_decision",
           "content": "\ud83e\udde9 No applicable strategies for current situation"
         },
         {
-          "timestamp": 1754311032.2655663,
+          "timestamp": 1754389457.6886957,
           "type": "strategic_decision",
           "content": "\ud83e\udde9 No applicable strategies for current situation"
         },
         {
-          "timestamp": 1754311173.5182798,
+          "timestamp": 1754389889.7022521,
           "type": "strategic_decision",
           "content": "\ud83e\udde9 No applicable strategies for current situation"
         },
         {
-          "timestamp": 1754311175.5324023,
+          "timestamp": 1754389891.6855266,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754389896.5220232,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754389898.5188596,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754389930.6253417,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754389932.5697587,
           "type": "strategic_decision",
           "content": "\ud83e\udde9 No applicable strategies for current situation"
         }
       ],
       "strategic_decisions": [
         {
-          "timestamp": 1754311030.2516105,
+          "timestamp": 1754389455.6660047,
           "action": 4,
           "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
           "confidence": 0.8,
           "strategy_used": "unknown"
         },
         {
-          "timestamp": 1754311032.2655687,
+          "timestamp": 1754389457.6887045,
           "action": 4,
           "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
           "confidence": 0.8,
           "strategy_used": "unknown"
         },
         {
-          "timestamp": 1754311173.5182817,
+          "timestamp": 1754389889.7022543,
           "action": 4,
           "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
           "confidence": 0.8,
           "strategy_used": "unknown"
         },
         {
-          "timestamp": 1754311175.5324042,
+          "timestamp": 1754389891.6855335,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754389896.5220246,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754389898.5188608,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754389930.6253436,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754389932.5697608,
           "action": 4,
           "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
           "confidence": 0.8,
@@ -622,7 +229,375 @@
         }
       ],
       "learning_adaptations": [],
-      "duration_seconds": 225.397232
+      "duration_seconds": 618.153928
+    },
+    {
+      "match_id": "agent_byte_filename_generation_1754394596",
+      "game_type": "filename_generation",
+      "start_time": "2025-08-05T06:49:56.522256",
+      "end_time": "2025-08-05T06:51:11.050162",
+      "winner": "User",
+      "final_score": {
+        "games_played": 0,
+        "wins": 0,
+        "win_rate": 0.0,
+        "exploration_rate": 0.102,
+        "avg_reward_per_game": 1.5,
+        "match_reward": 1.5,
+        "total_reward": 1.5,
+        "actions_taken": 2,
+        "training_steps": 13918567,
+        "experience_buffer_size": 1,
+        "avg_loss": 1150.2191,
+        "learning_rate": 0.001,
+        "learning_phase": "Expert",
+        "strategic_moves": 0,
+        "hit_to_score_bonuses": 0,
+        "total_bonus_reward": 0.0,
+        "human_demos_used": 0,
+        "user_demos_recorded": 0,
+        "user_demos_processed": 0,
+        "user_demo_buffer_size": 0,
+        "demo_learning_weight": 0.3,
+        "demo_replay_ratio": 0.25,
+        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
+        "target_updates": 13918567,
+        "double_dqn_improvements": 0,
+        "network_parameters": 15000,
+        "ball_tracking_score": 1150.2191,
+        "lessons_learned_this_match": 0,
+        "strategies_discovered_this_match": 0,
+        "symbolic_decisions_made": 2,
+        "neural_decisions_made": 0,
+        "knowledge_effectiveness": 1.0,
+        "strategy_performance": {
+          "symbolic": 1.5
+        },
+        "gamma": 0.95,
+        "gamma_source": "default",
+        "default_gamma": 0.95,
+        "environment_gamma": null,
+        "learning_parameters_adapted": false,
+        "environment_learning_metadata": {
+          "match_duration": "1-5 seconds",
+          "feedback_immediacy": "Immediate",
+          "decision_frequency": "Per content change"
+        },
+        "environment_integrated": true,
+        "environment_name": "filename_generation",
+        "environment_constants_loaded": 8,
+        "modular_behavior_active": true,
+        "environment_specific_learning": true,
+        "strategies_available": 16,
+        "lessons_learned": 20,
+        "reflections_made": 1,
+        "symbolic_win_rate": 0.0,
+        "recent_performance": {
+          "matches_analyzed": 3,
+          "recent_win_rate": 0.0,
+          "recent_hit_rate": 0.0,
+          "avg_reward_per_match": 1.3333333333333333,
+          "avg_hit_bonuses_per_match": 0.0,
+          "avg_human_demos_per_match": 0.0,
+          "avg_user_demos_per_match": 0.0,
+          "avg_lessons_per_match": 0.3333333333333333,
+          "avg_symbolic_decisions_per_match": 4.333333333333333,
+          "gamma_adaptations": 0,
+          "adaptive_learning_usage_rate": 0.0,
+          "total_matches": 3,
+          "total_wins": 0
+        }
+      },
+      "agent_byte_stats": {
+        "total_reward": 1.5,
+        "actions_taken": 2,
+        "match_reward": 1.5,
+        "exploration_rate_start": 0.101933964143407,
+        "exploration_rate_end": 0.101933964143407,
+        "training_steps": 13918567,
+        "target_updates": 13918567,
+        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
+        "hit_to_score_bonuses": 0,
+        "human_demos_used": 0,
+        "user_demos_recorded": 0,
+        "demo_learning_weight": 0.3,
+        "symbolic_lessons_learned": 0,
+        "strategies_discovered": 0,
+        "symbolic_decisions_made": 2,
+        "neural_decisions_made": 0,
+        "knowledge_effectiveness": 1.0,
+        "gamma_used": 0.95,
+        "gamma_source": "default",
+        "learning_rate_used": 0.001,
+        "learning_parameters_adapted": false,
+        "double_dqn_improvements": 0,
+        "total_bonus_reward": 0,
+        "user_demos_processed": 0,
+        "reflections_generated": 1,
+        "strategy_performance": {
+          "symbolic": 1.5
+        },
+        "default_gamma": 0.95,
+        "environment_learning_metadata": {
+          "match_duration": "1-5 seconds",
+          "feedback_immediacy": "Immediate",
+          "decision_frequency": "Per content change"
+        },
+        "environment_integrated": true,
+        "modular_behavior_active": true
+      },
+      "interactions": [],
+      "rewards_timeline": [],
+      "user_demonstrations": [],
+      "symbolic_insights": [
+        {
+          "timestamp": 1754394596.5222707,
+          "type": "env_context_loaded",
+          "content": "Environment context integrated for filename_generation"
+        },
+        {
+          "timestamp": 1754394601.662745,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754394603.6048498,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        }
+      ],
+      "strategic_decisions": [
+        {
+          "timestamp": 1754394601.6627483,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754394603.6048534,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        }
+      ],
+      "learning_adaptations": [],
+      "duration_seconds": 74.527906
+    },
+    {
+      "match_id": "agent_byte_filename_generation_1754480812",
+      "game_type": "filename_generation",
+      "start_time": "2025-08-06T06:46:52.629672",
+      "end_time": "2025-08-06T06:58:26.885331",
+      "winner": "User",
+      "final_score": {
+        "games_played": 0,
+        "wins": 0,
+        "win_rate": 0.0,
+        "exploration_rate": 0.102,
+        "avg_reward_per_game": 4.0,
+        "match_reward": 4.0,
+        "total_reward": 4.0,
+        "actions_taken": 8,
+        "training_steps": 13918571,
+        "experience_buffer_size": 4,
+        "avg_loss": 1150.2188,
+        "learning_rate": 0.001,
+        "learning_phase": "Expert",
+        "strategic_moves": 0,
+        "hit_to_score_bonuses": 0,
+        "total_bonus_reward": 0.0,
+        "human_demos_used": 0,
+        "user_demos_recorded": 0,
+        "user_demos_processed": 0,
+        "user_demo_buffer_size": 0,
+        "demo_learning_weight": 0.3,
+        "demo_replay_ratio": 0.25,
+        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
+        "target_updates": 13918571,
+        "double_dqn_improvements": 0,
+        "network_parameters": 15000,
+        "ball_tracking_score": 1150.2188,
+        "lessons_learned_this_match": 0,
+        "strategies_discovered_this_match": 1,
+        "symbolic_decisions_made": 7,
+        "neural_decisions_made": 1,
+        "knowledge_effectiveness": 1.0,
+        "strategy_performance": {
+          "symbolic": 1.0
+        },
+        "gamma": 0.95,
+        "gamma_source": "default",
+        "default_gamma": 0.95,
+        "environment_gamma": null,
+        "learning_parameters_adapted": false,
+        "environment_learning_metadata": {
+          "match_duration": "1-5 seconds",
+          "feedback_immediacy": "Immediate",
+          "decision_frequency": "Per content change"
+        },
+        "environment_integrated": true,
+        "environment_name": "filename_generation",
+        "environment_constants_loaded": 8,
+        "modular_behavior_active": true,
+        "environment_specific_learning": true,
+        "strategies_available": 17,
+        "lessons_learned": 20,
+        "reflections_made": 1,
+        "symbolic_win_rate": 0.0,
+        "recent_performance": {
+          "matches_analyzed": 3,
+          "recent_win_rate": 0.0,
+          "recent_hit_rate": 0.0,
+          "avg_reward_per_match": 1.3333333333333333,
+          "avg_hit_bonuses_per_match": 0.0,
+          "avg_human_demos_per_match": 0.0,
+          "avg_user_demos_per_match": 0.0,
+          "avg_lessons_per_match": 0.0,
+          "avg_symbolic_decisions_per_match": 4.666666666666667,
+          "gamma_adaptations": 0,
+          "adaptive_learning_usage_rate": 0.0,
+          "total_matches": 3,
+          "total_wins": 0
+        }
+      },
+      "agent_byte_stats": {
+        "total_reward": 4.0,
+        "actions_taken": 8,
+        "match_reward": 4.0,
+        "exploration_rate_start": 0.101933964143407,
+        "exploration_rate_end": 0.101933964143407,
+        "training_steps": 13918571,
+        "target_updates": 13918571,
+        "architecture": "Agent Byte v1.2 - Modular + Adaptive Learning + Knowledge System Enhanced",
+        "hit_to_score_bonuses": 0,
+        "human_demos_used": 0,
+        "user_demos_recorded": 0,
+        "demo_learning_weight": 0.3,
+        "symbolic_lessons_learned": 0,
+        "strategies_discovered": 1,
+        "symbolic_decisions_made": 7,
+        "neural_decisions_made": 1,
+        "knowledge_effectiveness": 1.0,
+        "gamma_used": 0.95,
+        "gamma_source": "default",
+        "learning_rate_used": 0.001,
+        "learning_parameters_adapted": false,
+        "double_dqn_improvements": 0,
+        "total_bonus_reward": 0,
+        "user_demos_processed": 0,
+        "reflections_generated": 1,
+        "strategy_performance": {
+          "symbolic": 1.0
+        },
+        "default_gamma": 0.95,
+        "environment_learning_metadata": {
+          "match_duration": "1-5 seconds",
+          "feedback_immediacy": "Immediate",
+          "decision_frequency": "Per content change"
+        },
+        "environment_integrated": true,
+        "modular_behavior_active": true
+      },
+      "interactions": [],
+      "rewards_timeline": [],
+      "user_demonstrations": [],
+      "symbolic_insights": [
+        {
+          "timestamp": 1754480812.6296868,
+          "type": "env_context_loaded",
+          "content": "Environment context integrated for filename_generation"
+        },
+        {
+          "timestamp": 1754480940.0742652,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754481273.2156281,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754481275.165161,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754481306.5016773,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754481308.4662762,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754481447.2111351,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        },
+        {
+          "timestamp": 1754481449.1374838,
+          "type": "strategic_decision",
+          "content": "\ud83e\udde9 No applicable strategies for current situation"
+        }
+      ],
+      "strategic_decisions": [
+        {
+          "timestamp": 1754480940.0742738,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754481273.215636,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754481275.1651626,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754481306.5016842,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754481308.4662821,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754481447.2111385,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        },
+        {
+          "timestamp": 1754481449.1374862,
+          "action": 4,
+          "reasoning": "\ud83e\udde9 No applicable strategies for current situation",
+          "confidence": 0.8,
+          "strategy_used": "unknown"
+        }
+      ],
+      "learning_adaptations": [],
+      "duration_seconds": 694.255659
     }
   ]
 }
