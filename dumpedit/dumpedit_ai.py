@@ -32,7 +32,14 @@ class DumpEditWithAgent:
     def __init__(self, root):
         self.root = root
         self.root.title("DumpEdit")
-        self.current_filename = "dumpedit_notes.txt"  # Initial filename
+
+        # Try to find the most recently modified .txt file
+        existing_files = [f for f in os.listdir(SAVE_FOLDER) if f.endswith('.txt')]
+        if existing_files:
+            latest_file = max(existing_files, key=lambda f: os.path.getmtime(os.path.join(SAVE_FOLDER, f)))
+            self.current_filename = latest_file
+        else:
+            self.current_filename = "dumpedit_notes.txt"
 
         # Initialize Agent Byte if available
         self.agent = None
@@ -415,6 +422,9 @@ class DumpEditWithAgent:
 
         alternatives = []
         used_strategies = set()
+        # exclude the last used strategy from suggestions
+        if hasattr(self, 'last_strategy_used'):
+            used_strategies.add(self.last_strategy_used)
 
         # Try to get 3 different strategies
         for _ in range(3):
@@ -507,7 +517,7 @@ class DumpEditWithAgent:
         def apply_choice():
             custom_name = self.custom_filename_entry.get().strip()
             if custom_name:  # Prioritize non-empty custom input
-                self.apply_filename_choice(custom_name, "user_custom", 0.0)
+                self.apply_filename_choice(custom_name, "user_custom", -1)
                 dialog.destroy()
             else:
                 choice = self.filename_choice.get()
@@ -515,7 +525,7 @@ class DumpEditWithAgent:
                     # User chose one of agent's suggestions
                     suggestion_index = int(choice.split("_")[1])
                     new_filename = suggestions[suggestion_index]
-                    self.apply_filename_choice(new_filename, "agent_suggestion", 1.5)
+                    self.apply_filename_choice(new_filename, "agent_suggestion", 1)
                     dialog.destroy()
                 else:
                     messagebox.showwarning("No Selection", "Please select a suggestion or enter a custom name.")
